@@ -32,8 +32,7 @@ To configure OpenAI and Azure OpenAI, ensure that you set the appropriate enviro
 For OpenAI, set the OPENAI_API_KEY environment variable:
 
 ```bash
-export OPENAI_API_KEY=your_openai_api_key
-```
+export OPENAI_API_KEY=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
 
 For Azure OpenAI, set the following environment variables:
 
@@ -51,7 +50,7 @@ Remember to replace the placeholders with your actual API keys and other require
 from codeinterpreterapi import CodeInterpreterSession, settings
 
 # set api key (or automatically loads from env vars)
-settings.OPENAI_API_KEY = "sk-***************"
+settings.OPENAI_API_KEY = "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"
 
 # create a session
 with CodeInterpreterSession() as session:

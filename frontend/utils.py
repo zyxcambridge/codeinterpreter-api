@@ -6,6 +6,11 @@ from typing import Optional
 import streamlit as st
 
 from codeinterpreterapi import CodeInterpreterSession
+from codeinterpreterapi import CodeInterpreterSession, settings
+
+# set api key (or automatically loads from env vars)
+settings.OPENAI_API_KEY = "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"
+
 
 
 def create_temp_folder() -> str:
